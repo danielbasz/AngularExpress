@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CSVData } from './CSVData';
-import { DataService } from './data.service';
+import { CSVData } from '../app/models/CSVData';
+import { DataService } from '../app/services/data.service';
 
 @Component({
   selector: 'app-root',

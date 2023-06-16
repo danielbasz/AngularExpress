@@ -10,6 +10,7 @@ import { resolve } from 'path';
 import { rejects } from 'assert';
 import { CSVData } from '../models/CSVData.models';
 import * as fastcsv from 'fast-csv';
+import { request } from 'http';
 
 
 class DataService {
@@ -45,15 +46,15 @@ class DataService {
         })
     }
 
-    writeCsvData(data: CSVData[]): Promise<CSVData[]> {
+    writeCsvData(data: CSVData[]): Promise<void> {
         return new Promise((resolve, reject) => {
-            const ws = file.createWriteStream(this.filePath);
-            fastcsv.write(data, {headers: true})
+          const ws = file.createWriteStream(this.filePath);
+          fastcsv.write(data, { headers: true })
             .pipe(ws)
             .on('finish', resolve)
-            .on('error', reject)
+            .on('error', reject);
         });
-    }
+      }
 }
 
 export default DataService;

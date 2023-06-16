@@ -44,13 +44,37 @@ theDataService.loadData().then((theData: CSVData[]) => {
  * @param response The outgoing response.
  */
 app.get('/data', (request: Request, response: Response) => {
-    response.json(data);
+    theDataService.loadData()
+    .then((theData: CSVData[]) => {
+        data = theData;
+        response.json(data);
+    })
+    .catch((error: any) => {
+        console.error('Error loading', error);
+        response.status(500).json({error: 'Failed to load'});
+    });
+    ;
 });
 
 app.post('/data', (request: Request, response: Response) => {
-    data.push(request.body);
-    response.json({message: 'New record added', record: request.body});
+    console.log(request.body);
+    const newData: CSVData = request.body;
+
+    data.push(newData);
+    response.status(201).json({message: 'New record added'});
 });
+
+app.post('/data/save', (request: Request, response: Response) => {
+    theDataService.writeCsvData(data)
+      .then(() => {
+        response.status(200).json({ message: 'Data saved successfully' });
+      })
+      .catch((error: any) => {
+        console.error('Error saving data:', error);
+        response.status(500).json({ error: 'Failed to save data' });
+      });
+  });
+  
 
 
 

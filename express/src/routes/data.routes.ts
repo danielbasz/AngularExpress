@@ -26,6 +26,11 @@ router.post('/data', (request: Request, response: Response) => {
     console.log(request.body);
     const newData: CSVData = request.body;
     const data = getData();
+
+    const maxId = Math.max(...data.map((item: CSVData) => item.ID));
+
+    newData.ID = maxId + 1;
+
     data.push(newData);
     response.status(201).json({message: 'New record added'});
 });

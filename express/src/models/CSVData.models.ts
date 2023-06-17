@@ -1,7 +1,10 @@
+//CSVData.model.ts
+
 /**
  * Makes a blueprint of our data for our server to load data. This is our entity
  */
 export interface CSVData {
+    ID: number;
     REF_DATE: string;
     GEO: string;
     DGUID: string;

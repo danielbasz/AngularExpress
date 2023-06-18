@@ -1,103 +1,102 @@
 ﻿ID,REF_DATE,GEO,DGUID,PRODUCT,STORAGE,UOM,UOM_ID,SCALAR_FACTOR,SCALAR_ID,VECTOR,COORDINATE,VALUE,STATUS,SYMBOL,TERMINATED,DECIMALS,ID
-,Jan-70,Canada,,Onions,Cold and common storage,Tonnes,288,units ,0,v722350,1.2.1,26341,,,,0,19aab19e-356b-412e-ae44-9aa12915fc68
-,Jan-70,Canada,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722358,1.3.1,29526,,,,0,4b6d67b0-57af-4212-b27b-c88e90894da9
-,Jan-70,Canada,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722366,1.4.1,1955,,,,0,e6a493f6-a36c-4d40-807b-55ac461f83b0
-,Jan-70,Maritime provinces,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722343,2.1.1,725,,,,0,fce69495-1737-4f67-89c3-032593b153ee
-,Jan-70,Maritime provinces,,Onions,Cold and common storage,Tonnes,288,units ,0,v722351,2.2.1,147,,,,0,eebb1c38-fe0e-477b-a533-742c3465f923
-,Jan-70,Maritime provinces,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722359,2.3.1,2949,,,,0,d757328f-6158-4f9e-b2da-aea6518c7553
-,Jan-70,Maritime provinces,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722367,2.4.1,508,,,,0,cba48d86-ca46-4164-8e11-ffa4a2fcfbe4
-,Jan-70,Quebec,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722344,3.1.1,95,,,,0,d5d90aa7-7aaf-4faa-ad8b-31ce99be2e88
-,Jan-70,Quebec,,Onions,Cold and common storage,Tonnes,288,units ,0,v722352,3.2.1,2631,,,,0,475523e9-c904-432a-acdb-bf2d8efc105f
-,Jan-70,Quebec,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722360,3.3.1,3271,,,,0,4b9a5f0d-f550-4d71-b445-7d8277cacde9
-,Jan-70,Quebec,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722368,3.4.1,618,,,,0,2c41f672-e1e9-489b-9e55-79b87607f13b
-,Jan-70,Ontario,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722345,4.1.1,106,,,,0,1b22f75a-5b43-4ed9-86b5-acaee0cdfc45
-,Jan-70,Ontario,,Onions,Cold and common storage,Tonnes,288,units ,0,v722353,4.2.1,22260,,,,0,6d339efc-85ee-4e9b-beff-945bea61487b
-,Jan-70,Ontario,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722361,4.3.1,21713,,,,0,e34fc405-8706-4c4b-8998-f5e689d482e8
-,Jan-70,Ontario,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722369,4.4.1,112,,,,0,aa0fdb1c-8857-4d95-a90c-676139df263d
-,Jan-70,Manitoba,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722346,5.1.1,0,,,,0,5d3a7fed-fb33-4a2f-ba82-a2a4db8db7e6
-,Jan-70,Manitoba,,Onions,Cold and common storage,Tonnes,288,units ,0,v722354,5.2.1,81,,,,0,8b7673a7-d123-41b9-8e22-3aa89048068a
-,Jan-70,Manitoba,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722362,5.3.1,105,,,,0,f7f0c05d-e93b-4071-8296-7464f14d853b
-,Jan-70,Manitoba,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722370,5.4.1,54,,,,0,1054d8d6-74d9-4c44-9146-a3db4d30ef0b
-,Jan-70,Saskatchewan,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722347,6.1.1,2,,,,0,64c9ce99-d9d2-4a82-b531-ea6c9241bb9b
-,Jan-70,Saskatchewan,,Onions,Cold and common storage,Tonnes,288,units ,0,v722355,6.2.1,66,,,,0,8b7eebe0-dd7b-4aa8-96da-94ffce7c37d4
-,Jan-70,Saskatchewan,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722363,6.3.1,22,,,,0,f10303f8-bfc1-414b-9815-24afbeb2c07f
-,Jan-70,Saskatchewan,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722371,6.4.1,28,,,,0,8f32931e-ce24-4bfb-9935-d3338de6cf82
-,Jan-70,Alberta,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722348,7.1.1,94,,,,0,d6196a3a-8a83-4cc8-936d-9d04bb0542c8
-,Jan-70,Alberta,,Onions,Cold and common storage,Tonnes,288,units ,0,v722356,7.2.1,102,,,,0,6ae96c87-3a55-4426-a765-ce88452d3b21
-,Jan-70,Alberta,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722364,7.3.1,1007,,,,0,857ce70b-1d86-4eb3-8753-c72b771c8581
-,Jan-70,Alberta,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722372,7.4.1,196,,,,0,023b6ebe-0c4b-4002-8e3b-413b124d6967
-,Jan-70,British Columbia,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722349,8.1.1,19,,,,0,4618a695-ed39-49b6-8dd7-eda528ad6df9
-,Jan-70,British Columbia,,Onions,Cold and common storage,Tonnes,288,units ,0,v722357,8.2.1,1055,,,,0,01daba8b-3b94-4385-9004-2661980335bb
-,Jan-70,British Columbia,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722365,8.3.1,459,,,,0,ce06d0d3-3418-40fd-825e-4f92214f0a5e
-,Jan-70,British Columbia,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722373,8.4.1,437,,,,0,e139cf75-a8b6-4823-86dd-c431e915739e
-,Feb-70,Canada,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722342,1.1.1,839,,,,0,88348dc2-265b-462b-8da6-9e4946c30771
-,Feb-70,Canada,,Onions,Cold and common storage,Tonnes,288,units ,0,v722350,1.2.1,14238,,,,0,b741fb77-d135-4617-a018-a279cace93a2
-,Feb-70,Canada,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722358,1.3.1,21025,,,,0,464d8b56-0dec-4d29-ac6f-dff879ad7777
-,Feb-70,Canada,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722366,1.4.1,1009,,,,0,84eac475-e3f5-40f2-b51b-73f6f17e162e
-,Feb-70,Maritime provinces,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722343,2.1.1,604,,,,0,1ab7fe39-2878-4c25-bb61-e0f35c326c74
-,Feb-70,Maritime provinces,,Onions,Cold and common storage,Tonnes,288,units ,0,v722351,2.2.1,151,,,,0,79b63043-44df-49ef-bab6-bfc237d2ae73
-,Feb-70,Maritime provinces,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722359,2.3.1,1520,,,,0,83a1144a-c899-45d6-bcb9-8d4b1f2bfe48
-,Feb-70,Maritime provinces,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722367,2.4.1,354,,,,0,71f2f0b6-3cc4-49a6-8f87-05f4d2193b8c
-,Feb-70,Quebec,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722344,3.1.1,56,,,,0,09fcaed5-8903-4809-9936-adae6d87e962
-,Feb-70,Quebec,,Onions,Cold and common storage,Tonnes,288,units ,0,v722352,3.2.1,1380,,,,0,f5b5e0d5-7418-47f3-82b9-69b3219426c8
-,Feb-70,Quebec,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722360,3.3.1,2642,,,,0,ddedf456-811d-4151-a3e0-e227fc9d7231
-,Feb-70,Quebec,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722368,3.4.1,275,,,,0,6ae5394a-2245-4247-a3f6-7303037ea2b3
-,Feb-70,Ontario,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722345,4.1.1,89,,,,0,a015e9c4-0a55-49be-919b-7638a14c0399
-,Feb-70,Ontario,,Onions,Cold and common storage,Tonnes,288,units ,0,v722353,4.2.1,11619,,,,0,59cb5524-f066-401a-8d7b-5960a20f3fc5
-,Feb-70,Ontario,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722361,4.3.1,15966,,,,0,0bec6a69-cbd4-4040-b66a-7149cca69421
-,Feb-70,Ontario,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722369,4.4.1,85,,,,0,ae719e89-29b7-4be4-b162-605a70ce6967
-,Feb-70,Manitoba,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722346,5.1.1,0,,,,0,18615151-0841-4003-8f7b-03598cc87321
-,Feb-70,Manitoba,,Onions,Cold and common storage,Tonnes,288,units ,0,v722354,5.2.1,159,,,,0,22f84f42-7d78-4902-a01a-b7746482ab05
-,Feb-70,Manitoba,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722362,5.3.1,91,,,,0,7e26f1b0-148b-454f-a65a-49d382629151
-,Feb-70,Manitoba,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722370,5.4.1,64,,,,0,ffa99e3d-8c06-46fc-831d-d99862d156fa
-,Feb-70,Saskatchewan,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722347,6.1.1,2,,,,0,bc67fa0f-34cd-449b-874d-602f6979fd96
-,Feb-70,Saskatchewan,,Onions,Cold and common storage,Tonnes,288,units ,0,v722355,6.2.1,124,,,,0,f06714b2-5b9c-4c12-9abf-48eda33c99e7
-,Feb-70,Saskatchewan,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722363,6.3.1,36,,,,0,d2c43c54-bac7-4d22-bc8f-a409b1b11875
-,Feb-70,Saskatchewan,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722371,6.4.1,20,,,,0,bb8b584a-c468-41cb-8eab-68674285603e
-,Feb-70,Alberta,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722348,7.1.1,72,,,,0,df1e7154-0843-4dd5-b044-8a32027494e2
-,Feb-70,Alberta,,Onions,Cold and common storage,Tonnes,288,units ,0,v722356,7.2.1,276,,,,0,00014a28-ae6b-453a-aec3-c359562ca022
-,Feb-70,Alberta,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722364,7.3.1,502,,,,0,2da3705d-db63-4286-a95e-0362a795f744
-,Feb-70,Alberta,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722372,7.4.1,68,,,,0,ac5b5b49-3912-4897-90ac-e164f1816dee
-,Feb-70,British Columbia,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722349,8.1.1,16,,,,0,f4a6229d-bdae-4220-9d91-973799080c0b
-,Feb-70,British Columbia,,Onions,Cold and common storage,Tonnes,288,units ,0,v722357,8.2.1,528,,,,0,08280cf1-d880-4bcf-bbb1-6b5c3ec30e73
-,Feb-70,British Columbia,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722365,8.3.1,269,,,,0,5721e535-0d6d-4921-9699-60856549b1e6
-,Feb-70,British Columbia,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722373,8.4.1,143,,,,0,c153c5e1-b75b-4fc9-9258-c2048232a6a6
-,Mar-70,Canada,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722342,1.1.1,680,,,,0,2c7eef43-9298-4844-bdaf-eca26df01a4b
-,Mar-70,Canada,,Onions,Cold and common storage,Tonnes,288,units ,0,v722350,1.2.1,9894,,,,0,9b173d76-dba2-4dc3-9e95-5f8062508948
-,Mar-70,Canada,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722358,1.3.1,14966,,,,0,aaf398dc-aa00-4073-9004-14c198ba4e50
-,Mar-70,Canada,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722366,1.4.1,645,,,,0,b7715683-2ad5-4a9b-ac7a-2a92031a51d2
-,Mar-70,Maritime provinces,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722343,2.1.1,503,,,,0,d640a083-7a4f-4e1b-b83b-748b46432fe5
-,Mar-70,Maritime provinces,,Onions,Cold and common storage,Tonnes,288,units ,0,v722351,2.2.1,138,,,,0,084a0d57-8c89-4d59-a732-b903261d8a28
-,Mar-70,Maritime provinces,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722359,2.3.1,192,,,,0,18a585a9-40bf-4fa9-b34f-448736bd8e50
-,Mar-70,Maritime provinces,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722367,2.4.1,106,,,,0,bbe6dae6-7368-40c9-894f-4051bf682fb1
-,Mar-70,Quebec,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722344,3.1.1,46,,,,0,36a2c43c-84e1-4ff0-842c-7d5d809652f5
-,Mar-70,Quebec,,Onions,Cold and common storage,Tonnes,288,units ,0,v722352,3.2.1,874,,,,0,c20f88b4-63d4-495a-a241-9cbd4a9f0e5c
-,Mar-70,Quebec,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722360,3.3.1,997,,,,0,a7e1c943-d909-42fe-b473-b6e507b7422e
-,Mar-70,Quebec,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722368,3.4.1,271,,,,0,b0ef9892-574e-44cf-ad8d-105ad26d7779
-,Mar-70,Ontario,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722345,4.1.1,62,,,,0,e1b773da-b4da-442d-b736-fcd265d1dca6
-,Mar-70,Ontario,,Onions,Cold and common storage,Tonnes,288,units ,0,v722353,4.2.1,7852,,,,0,bb28ae1b-64bd-4cae-a19f-d82429e44ad8
-,Mar-70,Ontario,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722361,4.3.1,13206,,,,0,77f13e7c-c01f-4904-bd0f-29b65003a2a0
-,Mar-70,Ontario,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722369,4.4.1,76,,,,0,afe6e130-03f0-45b0-93eb-5b23826c9e86
-,Mar-70,Manitoba,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722346,5.1.1,0,,,,0,41389b2e-cdaa-47ff-bb93-217d3626d1d6
-,Mar-70,Manitoba,,Onions,Cold and common storage,Tonnes,288,units ,0,v722354,5.2.1,113,,,,0,61e6516e-7a37-44f5-a427-70e09e094108
-,Mar-70,Manitoba,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722362,5.3.1,181,,,,0,9a332600-b03a-4ade-a40c-6f277d560938
-,Mar-70,Manitoba,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722370,5.4.1,32,,,,0,4026b404-98f5-4e87-b1a3-e58086b1a095
-,Mar-70,Saskatchewan,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722347,6.1.1,1,,,,0,71597927-1f5e-4fdb-b0cd-2093fd61385b
-,Mar-70,Saskatchewan,,Onions,Cold and common storage,Tonnes,288,units ,0,v722355,6.2.1,125,,,,0,01ffb820-2410-4594-aa28-8f92e4eb1a10
-,Mar-70,Saskatchewan,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722363,6.3.1,33,,,,0,b56bfe2f-1362-4bb7-ac26-04bd1e7c7557
-,Mar-70,Saskatchewan,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722371,6.4.1,34,,,,0,2a817f2c-9af3-4a3d-8f32-af47b9e757ff
-,Mar-70,Alberta,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722348,7.1.1,56,,,,0,6149f56a-c148-4db3-a0c8-312d9d8c04ba
-,Mar-70,Alberta,,Onions,Cold and common storage,Tonnes,288,units ,0,v722356,7.2.1,286,,,,0,c85cd30a-cdba-4417-83bd-1f1e0e7c625e
-,Mar-70,Alberta,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722364,7.3.1,123,,,,0,91c589b6-ca43-46bb-b7f9-54b572ed8abf
-,Mar-70,Alberta,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722372,7.4.1,30,,,,0,ec3acf2d-d586-4009-aba6-796230bcf228
-,Mar-70,British Columbia,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722349,8.1.1,12,,,,0,0b7e6266-906f-4cb4-8b7c-e474f4e31589
-,Mar-70,British Columbia,,Onions,Cold and common storage,Tonnes,288,units ,0,v722357,8.2.1,506,,,,0,98503a1a-67b1-49a5-bfa3-e023e2c0ad27
-,Mar-70,British Columbia,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722365,8.3.1,234,,,,0,3c374d29-9677-45f6-9952-d7bfab4402bb
-,Mar-70,British Columbia,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722373,8.4.1,96,,,,0,1a37be15-2018-4bbc-8637-323f364a3b62
-,Apr-70,Canada,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722342,1.1.1,559,,,,0,ef126501-7045-4a3e-b094-a9aafb027814
-,Apr-70,Canada,,Onions,Cold and common storage,Tonnes,288,units ,0,v722350,1.2.1,5034,,,,0,ada70ca1-2fd6-4e06-b786-44ed5e54e1be
-,Apr-70,Canada,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722358,1.3.1,6525,,,,0,6268b201-4e4a-4cfd-bf92-58cdcb65e7bd
-,Apr-70,Canada,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722366,1.4.1,474,,,,0,117e09be-6782-4869-ab9d-01d857155150
-,,,,,,,,,,,,,,,,,52231276-174f-40b7-9333-d34865078d7c
-,scasc,,asfascasc,,,,ascasc,,,ascasc,,,,,,,7059b964-07d2-49c4-a525-1b692c8ed35a
-,,,,asdasdasd,,,,,,,,,,asdasdasd,,,bfc4379a-b252-45ce-b052-e902e32f2323
+,Jan-70,Canada,,Onions,Cold and common storage,Tonnes,288,units ,0,v722350,1.2.1,26341,,,,0,3c8c1610-71fa-4ca0-b314-09cddab82711
+,Jan-70,Canada,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722358,1.3.1,29526,,,,0,f5bc2560-4cb2-42f7-a5fa-b29a4e914991
+,Jan-70,Canada,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722366,1.4.1,1955,,,,0,059fc96f-3f58-43d6-b32f-db812585aa89
+,Jan-70,Maritime provinces,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722343,2.1.1,725,,,,0,39593a7a-e6ad-4015-b477-5c7f616b2390
+,Jan-70,Maritime provinces,,Onions,Cold and common storage,Tonnes,288,units ,0,v722351,2.2.1,147,,,,0,54f77e94-8ab7-40a8-962a-26dd22f40e19
+,Jan-70,Maritime provinces,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722359,2.3.1,2949,,,,0,33f4e1f1-d188-4f5f-ae66-bd0122625e93
+,Jan-70,Maritime provinces,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722367,2.4.1,508,,,,0,4871d699-54c7-4d7d-9633-a35622449deb
+,Jan-70,Quebec,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722344,3.1.1,95,,,,0,dd2100b3-438a-4bbf-b070-153a3631f478
+,Jan-70,Quebec,,Onions,Cold and common storage,Tonnes,288,units ,0,v722352,3.2.1,2631,,,,0,afab3567-2ec6-4ded-bd75-f4fac4f02f11
+,Jan-70,Quebec,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722360,3.3.1,3271,,,,0,a1d6ab3c-5d01-45da-a5bd-2d3254599511
+,Jan-70,Quebec,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722368,3.4.1,618,,,,0,df35b40c-3d8c-47bf-a85a-4f9a66885da8
+,Jan-70,Ontario,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722345,4.1.1,106,,,,0,70360587-0ed8-4804-a92b-30086f726a9b
+,Jan-70,Ontario,,Onions,Cold and common storage,Tonnes,288,units ,0,v722353,4.2.1,22260,,,,0,cf327c3f-0bdd-4b46-a944-ebd8a4c4e397
+,Jan-70,Ontario,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722361,4.3.1,21713,,,,0,6916d7ec-ecc9-4af1-a042-c232acd7eb0a
+,Jan-70,Ontario,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722369,4.4.1,112,,,,0,efb13599-bed7-416d-91ed-9823900bf832
+,Jan-70,Manitoba,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722346,5.1.1,0,,,,0,e32d1bd3-f2fd-4ab3-9a2d-0476e9c4aa68
+,Jan-70,Manitoba,,Onions,Cold and common storage,Tonnes,288,units ,0,v722354,5.2.1,81,,,,0,6cf5bb51-df02-4c71-93c0-d3ba4befabc1
+,Jan-70,Manitoba,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722362,5.3.1,105,,,,0,cfe62340-9598-48cc-9aef-1bb7cae7c0bf
+,Jan-70,Manitoba,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722370,5.4.1,54,,,,0,a3ed056f-c696-4033-8b43-f76f2e433bbc
+,Jan-70,Saskatchewan,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722347,6.1.1,2,,,,0,ea525593-b84d-4ff8-92fc-f204bde568bb
+,Jan-70,Saskatchewan,,Onions,Cold and common storage,Tonnes,288,units ,0,v722355,6.2.1,66,,,,0,3ae40426-ff44-49a4-af30-0dc95caf5a00
+,Jan-70,Saskatchewan,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722363,6.3.1,22,,,,0,1510b473-5c52-4fe4-8ae3-c3318440b5d8
+,Jan-70,Saskatchewan,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722371,6.4.1,28,,,,0,373b8480-e379-4f72-871e-0da2c7f29849
+,Jan-70,Alberta,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722348,7.1.1,94,,,,0,5c58923e-4968-43df-ac0d-2873c6691f1b
+,Jan-70,Alberta,,Onions,Cold and common storage,Tonnes,288,units ,0,v722356,7.2.1,102,,,,0,e9cc86fa-a032-40fa-8b7a-49f9055056d2
+,Jan-70,Alberta,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722364,7.3.1,1007,,,,0,26b7d760-668a-45c7-ae42-e3b2f295048e
+,Jan-70,Alberta,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722372,7.4.1,196,,,,0,e6b9c1c3-6918-49f9-bb5c-f826ac76414a
+,Jan-70,British Columbia,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722349,8.1.1,19,,,,0,0a312af7-8d56-4096-b38f-eda56b8a042e
+,Jan-70,British Columbia,,Onions,Cold and common storage,Tonnes,288,units ,0,v722357,8.2.1,1055,,,,0,e0e7567d-0e42-48a4-ac83-2dce0e7ed3d6
+,Jan-70,British Columbia,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722365,8.3.1,459,,,,0,ac9db406-3a62-4573-add6-ddc2a1e2ff43
+,Jan-70,British Columbia,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722373,8.4.1,437,,,,0,e920f07e-1296-4b4b-a625-ffd6ece80efc
+,Feb-70,Canada,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722342,1.1.1,839,,,,0,ca825966-34b4-4eb4-8a97-42e83244da34
+,Feb-70,Canada,,Onions,Cold and common storage,Tonnes,288,units ,0,v722350,1.2.1,14238,,,,0,48db5276-ff27-4ddf-934e-c82bf3b3943a
+,Feb-70,Canada,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722358,1.3.1,21025,,,,0,6a576e3d-f13e-4d31-b7e9-4b46861eeb6f
+,Feb-70,Canada,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722366,1.4.1,1009,,,,0,37b35367-a56a-4553-a54b-b03a7ece1c59
+,Feb-70,Maritime provinces,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722343,2.1.1,604,,,,0,8d785f9c-76af-4250-b50e-67a9c1e803ac
+,Feb-70,Maritime provinces,,Onions,Cold and common storage,Tonnes,288,units ,0,v722351,2.2.1,151,,,,0,073eb842-c2b9-4407-9bba-99712c138e4d
+,Feb-70,Maritime provinces,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722359,2.3.1,1520,,,,0,8977eae2-c767-4c0b-b673-5122867c1112
+,Feb-70,Maritime provinces,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722367,2.4.1,354,,,,0,b0031c58-6196-4fbc-a01d-81a932104d39
+,Feb-70,Quebec,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722344,3.1.1,56,,,,0,5aff60af-0309-45da-821c-cb4af1c2bdfa
+,Feb-70,Quebec,,Onions,Cold and common storage,Tonnes,288,units ,0,v722352,3.2.1,1380,,,,0,bc76a950-227b-481a-9a76-bfce7e12fc51
+,Feb-70,Quebec,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722360,3.3.1,2642,,,,0,53820568-e743-46de-9034-7e9ad880078d
+,Feb-70,Quebec,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722368,3.4.1,275,,,,0,84d7ef14-7389-4e5c-a1a9-2bf5ea0defa5
+,Feb-70,Ontario,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722345,4.1.1,89,,,,0,baa2c868-d90a-49ee-bce4-d3ba29c625ae
+,Feb-70,Ontario,,Onions,Cold and common storage,Tonnes,288,units ,0,v722353,4.2.1,11619,,,,0,55bb218e-8cc1-4ace-91dd-b8ff8fc1a78c
+,Feb-70,Ontario,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722361,4.3.1,15966,,,,0,f399ba59-54ad-4767-93e9-4af34754e4f0
+,Feb-70,Ontario,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722369,4.4.1,85,,,,0,06f0ef42-73ed-460a-aed2-da9fa242bbf1
+,Feb-70,Manitoba,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722346,5.1.1,0,,,,0,8f073558-3d07-4dd3-947d-7daa50f4915a
+,Feb-70,Manitoba,,Onions,Cold and common storage,Tonnes,288,units ,0,v722354,5.2.1,159,,,,0,f4641080-07d7-44fb-acbd-2d42dd6b6e6f
+,Feb-70,Manitoba,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722362,5.3.1,91,,,,0,8f3f5139-3a87-4b21-92a2-ce48a137639d
+,Feb-70,Manitoba,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722370,5.4.1,64,,,,0,1a26c22e-7fc2-4b0a-97c9-6517cba09ab2
+,Feb-70,Saskatchewan,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722347,6.1.1,2,,,,0,ffa645cd-c81b-4e74-b76e-c439406142a8
+,Feb-70,Saskatchewan,,Onions,Cold and common storage,Tonnes,288,units ,0,v722355,6.2.1,124,,,,0,e7788923-f901-4c82-869f-f4b98ba1e964
+,Feb-70,Saskatchewan,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722363,6.3.1,36,,,,0,62747aed-a810-43ba-aa27-458e8822e5c6
+,Feb-70,Saskatchewan,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722371,6.4.1,20,,,,0,23d7fbb3-1e0a-4b0e-bcf6-9ba2fe8b292f
+,Feb-70,Alberta,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722348,7.1.1,72,,,,0,0d2cced6-a37f-4bf0-b421-3ea4c3e11591
+,Feb-70,Alberta,,Onions,Cold and common storage,Tonnes,288,units ,0,v722356,7.2.1,276,,,,0,05ea3eb5-a5ff-4789-9a05-7c34b01bacfe
+,Feb-70,Alberta,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722364,7.3.1,502,,,,0,94eee24c-9f3b-4a3e-8d15-24e1bc3989a5
+,Feb-70,Alberta,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722372,7.4.1,68,,,,0,10072939-4d97-47e9-9bba-680914689d21
+,Feb-70,British Columbia,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722349,8.1.1,16,,,,0,fbd114df-72ab-49fd-929f-d622c77538d9
+,Feb-70,British Columbia,,Onions,Cold and common storage,Tonnes,288,units ,0,v722357,8.2.1,528,,,,0,1d4703a3-6f8f-4ce5-9e05-cc13633d5051
+,Feb-70,British Columbia,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722365,8.3.1,269,,,,0,01b368bd-57ae-4167-aeb6-d02cb4622173
+,Feb-70,British Columbia,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722373,8.4.1,143,,,,0,6c57b71f-5abf-4fed-be0c-24a61c4417ad
+,Mar-70,Canada,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722342,1.1.1,680,,,,0,732cbf5f-595e-4733-ae0f-af1547a2ce59
+,Mar-70,Canada,,Onions,Cold and common storage,Tonnes,288,units ,0,v722350,1.2.1,9894,,,,0,087b4b2e-c9bb-45fd-a631-62e4368738de
+,Mar-70,Canada,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722358,1.3.1,14966,,,,0,607699f5-06ef-4551-ab37-33fd340ea099
+,Mar-70,Canada,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722366,1.4.1,645,,,,0,8b7b80f0-b3ac-4806-bd85-4343ac9e4f31
+,Mar-70,Maritime provinces,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722343,2.1.1,503,,,,0,016ef54a-cdba-4872-bbaf-fe869be82953
+,Mar-70,Maritime provinces,,Onions,Cold and common storage,Tonnes,288,units ,0,v722351,2.2.1,138,,,,0,5869f281-36fe-474c-b69f-7a399c380dc4
+,Mar-70,Maritime provinces,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722359,2.3.1,192,,,,0,2aeff5aa-09c7-42dd-93de-ca87e9933bd6
+,Mar-70,Maritime provinces,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722367,2.4.1,106,,,,0,80d3bfa8-dcd5-4b0f-8f11-b6e3245def87
+,Mar-70,Quebec,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722344,3.1.1,46,,,,0,c26fe672-17ee-4370-9f7c-6e0ceac488ce
+,Mar-70,Quebec,,Onions,Cold and common storage,Tonnes,288,units ,0,v722352,3.2.1,874,,,,0,170b7740-b1aa-4844-a569-5dfb345f40c9
+,Mar-70,Quebec,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722360,3.3.1,997,,,,0,18c10060-7266-4727-ad22-e063013a0645
+,Mar-70,Quebec,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722368,3.4.1,271,,,,0,f2838422-88d9-4c45-a4bd-51e3b74de325
+,Mar-70,Ontario,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722345,4.1.1,62,,,,0,460a73e8-461c-41c6-ac7a-06eddf75f1ce
+,Mar-70,Ontario,,Onions,Cold and common storage,Tonnes,288,units ,0,v722353,4.2.1,7852,,,,0,c0d0cf36-5fed-4e2b-9e3d-793f2acb9c14
+,Mar-70,Ontario,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722361,4.3.1,13206,,,,0,1eb9a21a-a3b4-4803-88f7-43c7ac07b721
+,Mar-70,Ontario,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722369,4.4.1,76,,,,0,8c683569-2246-4881-b9a9-88606eb6ceb8
+,Mar-70,Manitoba,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722346,5.1.1,0,,,,0,0b74ea04-bdb6-404c-8dd2-e6f8fa6b401a
+,Mar-70,Manitoba,,Onions,Cold and common storage,Tonnes,288,units ,0,v722354,5.2.1,113,,,,0,7d118790-4a17-44ac-815d-d1107228a486
+,Mar-70,Manitoba,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722362,5.3.1,181,,,,0,9e53774e-b4d6-4e20-a091-b471a2383957
+,Mar-70,Manitoba,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722370,5.4.1,32,,,,0,545f3404-ca78-475c-92c9-f007a9dca7f2
+,Mar-70,Saskatchewan,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722347,6.1.1,1,,,,0,0cf09892-d1bb-4643-8020-80ebf937d3b9
+,Mar-70,Saskatchewan,,Onions,Cold and common storage,Tonnes,288,units ,0,v722355,6.2.1,125,,,,0,ff18cfbc-7f8e-4467-9679-5a427ff219ad
+,Mar-70,Saskatchewan,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722363,6.3.1,33,,,,0,be325084-fcee-4f9b-9556-4946993d211e
+,Mar-70,Saskatchewan,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722371,6.4.1,34,,,,0,bbe7ec06-79af-4956-93ae-39acc44b5bbf
+,Mar-70,Alberta,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722348,7.1.1,56,,,,0,e0c4dec1-1104-4127-b476-32ff467b2811
+,Mar-70,Alberta,,Onions,Cold and common storage,Tonnes,288,units ,0,v722356,7.2.1,286,,,,0,79f91456-d875-41be-9e26-1a0b1fe1c158
+,Mar-70,Alberta,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722364,7.3.1,123,,,,0,a9ec656a-a64a-4a26-8f53-f1b4515d431e
+,Mar-70,Alberta,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722372,7.4.1,30,,,,0,9ed78704-168f-40b4-93aa-89bdb2f1875f
+,Mar-70,British Columbia,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722349,8.1.1,12,,,,0,69db1145-81fd-4d0d-860a-73fe10ef25eb
+,Mar-70,British Columbia,,Onions,Cold and common storage,Tonnes,288,units ,0,v722357,8.2.1,506,,,,0,83b13077-5399-4911-b027-9be5fb2973ed
+,Mar-70,British Columbia,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722365,8.3.1,234,,,,0,4ca24835-1499-49a0-8952-f8b9e0ff0016
+,Mar-70,British Columbia,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722373,8.4.1,96,,,,0,6b920c90-d9f9-4e7b-978f-f33cf6e75645
+,Apr-70,Canada,,Potatoes,Cold and common storage,Tonnes,288,units ,0,v722342,1.1.1,559,,,,0,676a4416-d1ed-4f0c-8d99-66cda48d8c34
+,Apr-70,Canada,,Onions,Cold and common storage,Tonnes,288,units ,0,v722350,1.2.1,5034,,,,0,feefd0f4-9b7b-4c95-bbd0-bc871281e1cc
+,Apr-70,Canada,,Carrots,Cold and common storage,Tonnes,288,units ,0,v722358,1.3.1,6525,,,,0,59194330-cc27-464f-87f6-1380cc0464ba
+,Apr-70,Canada,,Cabbage,Cold and common storage,Tonnes,288,units ,0,v722366,1.4.1,474,,,,0,2270016d-2e05-4a43-9672-f1e313babfa0
+,,,,,,,,,,,,,,,,,261b106f-a4ea-4f7c-b50b-a299b623f1e8
+,asdasd,asdasd,,,,,,,,,,,,,,,9fe35a72-6fc7-40a2-9cbe-8e939e0e04dc

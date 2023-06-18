@@ -2,7 +2,7 @@
 //imports contain models and services
 import { CSVData } from '../models/CSVData.models';
 import DataService from '../services/data.service';
-const { v4: uuidv4 } = require('uuid');
+import { v4 as uuidv4 } from 'uuid';
 
 
 /**
@@ -10,42 +10,67 @@ const { v4: uuidv4 } = require('uuid');
  */
 const DATA_FILE_PATH = '../dataset/32100260.csv';
 
-/**
- * theDataService is an instance of our DataService class that will be used to load our data
- */
-const theDataService = new DataService(DATA_FILE_PATH);
+class DataModule {
+  private data: CSVData[];
+  private dataService: DataService;
+  private filePath: string;
 
-/**
- * data is an empty array that will be used to store our data from our CSV file
- */
-let theData: CSVData[] = [];
+
+  constructor() {
+    this.dataService = new DataService(DATA_FILE_PATH);
+    this.data = [];
+    this.filePath = '';
+    this.loadData();
+  }
+
+
 
 //loads 100 rows data from CSV file when module is loaded. As this is the first run of load,
 // we can limit the reads to 100 rows.
 // Load the data when the module is initialized
 
-theDataService.loadData().then((theData: CSVData[]) => {
-  const data = theData.slice(0, 100).map((item) => {
-    return { ...item, ID: uuidv4() };
-  });
-  setData(data) ; // Store the loaded data in your module or service
-})
-.catch((error: any) => {
-  console.error('Error Handling data: ', error);
-});
-
-export function setData(data: CSVData[]): void {
-  theData = data;
+private loadData(): void {
+  this.dataService.loadData()
+    .then((loadedData: CSVData[]) => {
+      // Generate unique IDs for each data object
+      this.data = loadedData.map((item) => ({
+        ...item,
+        ID: uuidv4(),
+      }));
+    })
+    .catch((error: any) => {
+      console.error('Error handling data:', error);
+    });
 }
 
+getData(): CSVData[] {
+  return this.data;
+}
 
+setData(data: CSVData[]): boolean {
+  this.data = data;
+  return true;
+}
 
-/**
- * getData() is a function that will return our data array
- * @returns data
- */
+saveToFile(): Promise<void> {
+  return this.dataService.writeCsvData(this.data);
+}
+
+}
+
+const dataModule = new DataModule();
+
 export function getData(): CSVData[] {
-    return theData;
+return dataModule.getData();
 }
 
-export { theDataService };
+export function setData(data: CSVData[]): boolean {
+return dataModule.setData(data);
+}
+
+export function saveData(): Promise<void> {
+return dataModule.saveToFile();
+}
+
+
+

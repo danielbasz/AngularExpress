@@ -1,27 +1,16 @@
 
 import express, { Request, Response } from 'express';
-import { getData, theDataService } from '../modules/data.module';
+import { getData, setData, saveData } from '../modules/data.module';
 import { CSVData } from '../models/CSVData.models';
-
-const { v4: uuidv4 } = require('uuid');
+import { v4 as uuidv4 } from 'uuid';
 
 const router = express.Router();
 
 // get all data endpoint
 router.get('/data', (request: Request, response: Response) => {
-    theDataService.loadData()
-    .then((theData: CSVData[]) => {
-        const data = theData.slice(0,100).map((item) => {
-            return {...item, ID: uuidv4()}
-        });
-        response.status(200).json(data);
-    })
-    .catch((error: any) => {
-        console.error('Error loading', error);
-        response.status(500).json({error: 'Failed to load'});
-    });
-    ;
-});
+    const data = getData();
+    response.status(200).json(data)
+   });
 
 /**
  * Add new row of data endpoint
@@ -37,32 +26,30 @@ router.post('/data', (request: Request, response: Response) => {
 
     data.push(newData);
 
-    //saving data to csv file
-    theDataService.writeCsvData(data)
-    .then(() => {
-      response.status(200).json({ message: 'Data saved successfully' });
-    })
-    .catch((error: any) => {
-      console.error('Error saving data:', error);
-      response.status(500).json({ error: 'Failed to save data' });
+    //saving data to memory
+    if (setData(data)) {
+      response.status(200).json({ message: 'Data saved to memory successfully' });
+    } else {
+      response.status(500).json({ error: 'Failed to save data to memory' });
+      
+    }
     });
-
-});
 
 /**
  * Save data endpoint
  */
 router.post('/data/save', (request: Request, response: Response) => {
-  const data = getData();
-  theDataService.writeCsvData(data)
-    .then(() => {
-      response.status(200).json({ message: 'Data saved successfully' });
-    })
-    .catch((error: any) => {
-      console.error('Error saving data:', error);
-      response.status(500).json({ error: 'Failed to save data' });
-    });
+
+  saveData().then(() => {
+    response.status(200).json({ message: 'Data saved successfully' });
+  })
+  .catch((error: any) => {
+    console.error('Error saving data:', error);
+    response.status(500).json({ error: 'Failed to save data' });
+  });
 });
+
+  
 
 
 /**
@@ -108,10 +95,13 @@ router.put('/data/:id', (request: Request, response: Response) => {
   //finds index of data we want to update in the csv file
   const index = data.findIndex((theData:CSVData) => theData.ID === id);
 
-  //if index is found, update data
   if (index !== -1) {
     data[index] = newData;
-    response.status(200).json({ message: 'Data updated succesfully' });
+    if (setData(data)) {
+      response.status(200).json({ message: 'Data updated successfully' });
+    } else {
+      response.status(500).json({ error: 'Failed to update data' });
+    }
   } else {
     response.status(404).json({ message: 'Data not found' });
   }

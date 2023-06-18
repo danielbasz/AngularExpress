@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DisplayComponent } from './display.component';
+import { DataEditComponent } from './data-edit.component';
 
-describe('DisplayComponent', () => {
-  let component: DisplayComponent;
-  let fixture: ComponentFixture<DisplayComponent>;
+describe('DataEditComponent', () => {
+  let component: DataEditComponent;
+  let fixture: ComponentFixture<DataEditComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [DisplayComponent]
+      declarations: [DataEditComponent]
     });
-    fixture = TestBed.createComponent(DisplayComponent);
+    fixture = TestBed.createComponent(DataEditComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

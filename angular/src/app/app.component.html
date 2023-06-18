@@ -1,41 +1,13 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
 <!-- Header section with hardcoded name-->
 <div class="header">
   <h1>Daniel Barboza</h1>
 </div>
 
-<!-- This is the data container section which holds our rows of data from our CSV -->
-<div class="data-container">
-
-  <!-- *ngIf is an if functionality that waits for data, and while waiting goes to the loading template -->
-  <div *ngIf="data; else loading">
-
-  <!-- *ngFor loops through all our rows inside our data-->
-  <!-- by Daniel Barboza -->
-  <div *ngFor="let row of data">
-    <div class="row">
-      <h2>Type of Product: {{ row['Type of product'] }}</h2>
-      <p>REF_DATE: {{ row['REF_DATE'] }}</p>
-      <p>GEO: {{ row['GEO'] }}</p>
-      <p>DGUID: {{ row['DGUID'] }}</p>
-      <p>Type of storage: {{ row['Type of storage'] }}</p>
-      <p>UOM: {{ row['UOM'] }}</p>
-      <p>UOM_ID: {{ row['UOM_ID'] }}</p>
-      <p>SCALAR_FACTOR: {{ row['SCALAR_FACTOR'] }}</p>
-      <p>SCALAR_ID: {{ row['SCALAR_ID'] }}</p>
-      <p>VECTOR: {{ row['VECTOR'] }}</p>
-      <p>COORDINATE: {{ row['COORDINATE'] }}</p>
-      <p>VALUE: {{ row['VALUE'] }}</p>
-      <p>STATUS: {{ row['STATUS'] }}</p>
-      <p>SYMBOL: {{ row['SYMBOL'] }}</p>
-      <p>TERMINATED: {{ row['TERMINATED'] }}</p>
-      <p>DECIMALS: {{ row['DECIMALS'] }}</p>
-    </div>
-  </div>
-</div>
-
-<!-- This keeps a template named "loading" that is called while there is a wait for data -->
-<ng-template #loading>
-  <p>CSV file is BIG, Loading data...</p>
-</ng-template>
-</div>      
+<main>
+  <router-outlet></router-outlet>
+</main>

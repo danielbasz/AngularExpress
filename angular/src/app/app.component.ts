@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CSVData } from '../app/models/CSVData';
+import { CSVData } from './models/CSVData.model';
 import { DataService } from '../app/services/data.service';
 
 @Component({
@@ -16,6 +16,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.fetch();
+    console.log(this.data)
   }
 
 

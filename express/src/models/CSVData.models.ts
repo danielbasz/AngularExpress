@@ -1,12 +1,15 @@
+//CSVData.model.ts
+
 /**
  * Makes a blueprint of our data for our server to load data. This is our entity
  */
 export interface CSVData {
+    ID: string;
     REF_DATE: string;
     GEO: string;
     DGUID: string;
-    'Type of product': string;
-    'Type of storage': string;	
+    PRODUCT: string;
+    STORAGE: string;	
     UOM: string;
     UOM_ID: string;
     SCALAR_FACTOR: string;

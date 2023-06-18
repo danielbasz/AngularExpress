@@ -1,0 +1,24 @@
+<!-- data-detail.component.html -->
+<h2>Data Details</h2>
+<div *ngIf="data">
+  <p><strong>ID:</strong> {{data.ID}}</p>
+  <p><strong>REF_DATE:</strong> {{data.REF_DATE}}</p>
+  <p><strong>GEO:</strong> {{data.GEO}}</p>
+  <p><strong>DGUID:</strong> {{data.DGUID}}</p>
+  <p><strong>PRODUCT:</strong> {{data.PRODUCT}}</p>
+  <p><strong>STORAGE:</strong> {{data.STORAGE}}</p>
+  <p><strong>UOM:</strong> {{data.UOM}}</p>
+  <p><strong>UOM_ID:</strong> {{data.UOM_ID}}</p>
+  <p><strong>SCALAR_FACTOR:</strong> {{data.SCALAR_FACTOR}}</p>
+  <p><strong>SCALAR_ID:</strong> {{data.SCALAR_ID}}</p>
+  <p><strong>VECTOR:</strong> {{data.VECTOR}}</p>
+  <p><strong>COORDINATE:</strong> {{data.COORDINATE}}</p>
+  <p><strong>VALUE:</strong> {{data.VALUE}}</p>
+  <p><strong>STATUS:</strong> {{data.STATUS}}</p>
+  <p><strong>SYMBOL:</strong> {{data.SYMBOL}}</p>
+  <p><strong>TERMINATED:</strong> {{data.TERMINATED}}</p>
+  <p><strong>DECIMALS:</strong> {{data.DECIMALS}}</p>
+
+  <!-- Link to Edit page -->
+  <a routerLink="/edit/{{data.ID}}">Edit this data</a>
+</div>

@@ -1,22 +1,27 @@
 "use strict";
+/**
+ * 23S CST 8333 360
+ * Author: Daniel Barboza
+ * id: 041025651
+ */
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
-const dataLoader_1 = require("./dataLoader");
+const cors_1 = __importDefault(require("cors"));
+const data_routes_1 = __importDefault(require("./routes/data.routes"));
+const DATA_FILE_PATH = '../dataset/32100260.csv';
+/**
+ * Defines express as the framework of our app and adds 'cors' for easing different
+ * port communication between our front end and back end
+ */
 const app = (0, express_1.default)();
-let data = [];
-(0, dataLoader_1.loadData)('../dataset/32100260.csv')
-    .then((theData) => {
-    data = theData;
-    console.log('Successful loading of data');
-})
-    .catch((error) => {
-    console.error('There was an error while loading data: ', error);
-});
-app.get('/data', (request, response) => {
-    response.json(data);
-});
-const port = process.env.PORT || 3000;
-app.listen(port, () => console.log('Sever started on  port ${port}'));
+app.use((0, cors_1.default)());
+app.use(express_1.default.json());
+// our routes
+app.use('/api', data_routes_1.default);
+/**
+ * Opens server listening on port 3000
+ */
+app.listen(3000, () => console.log('Sever started on port 3000'));

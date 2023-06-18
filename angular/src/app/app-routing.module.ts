@@ -9,8 +9,7 @@ const routes: Routes = [
   { path: '', component: DataListComponent },
   { path: 'create', component: DataCreateComponent },
   { path: 'edit/:id', component: DataEditComponent },
-  { path: 'detail/:id', component: DataDetailComponent }
-
+  { path: 'detail/:id', component: DataDetailComponent },
 ];
 
 @NgModule({

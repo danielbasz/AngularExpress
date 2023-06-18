@@ -4,12 +4,12 @@
  * Makes a blueprint of our data for our server to load data. This is our entity
  */
 export interface CSVData {
-    ID: number;
+    ID: string;
     REF_DATE: string;
     GEO: string;
     DGUID: string;
-    TOP: string;
-    TOS: string;	
+    PRODUCT: string;
+    STORAGE: string;	
     UOM: string;
     UOM_ID: string;
     SCALAR_FACTOR: string;

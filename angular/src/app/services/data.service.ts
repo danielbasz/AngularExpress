@@ -3,6 +3,7 @@ import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { CSVData } from '../models/CSVData.model';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -17,8 +18,8 @@ export class DataService {
   }
 
   //get data by id
-  getDataById(id: string): Observable<CSVData> {
-    return this.http.get<CSVData>(`${this.url}/${id}`);
+  getDataById(ID: string): Observable<CSVData> {
+    return this.http.get<CSVData>(`${this.url}/${ID}`);
   }
 
   //create data

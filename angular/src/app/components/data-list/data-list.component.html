@@ -9,13 +9,13 @@
         <div class="row">
 
         <table class="table">
-        <tr>
+        <thead>
         <th>ID</th>
         <th>REF_DATE</th>
         <th>GEO</th>
         <th>DGUID</th>
-        <th>Type of product</th>
-        <th>Type of storage</th>
+        <th>PRODUCT</th>
+        <th>STORAGE</th>
         <th>UOM</th>
         <th>UOM_ID</th>
         <th>SCALAR_FACTOR</th>
@@ -27,15 +27,15 @@
         <th>SYMBOL</th>
         <th>TERMINATED</th>
         <th>DECIMALS</th>
-    </tr>
-    
-    <tr *ngFor="let item of data">
+        </thead>
+    <tbody>
+    <tr *ngFor="let item of data" [ngClass]="{'table-row': true}" (click)="detailData(item.ID)">
         <td>{{item.ID}}</td>
         <td>{{item.REF_DATE}}</td>
         <td>{{item.GEO}}</td>
         <td>{{item.DGUID}}</td>
-        <td>{{item.TOP}}</td>
-        <td>{{item.TOS}}</td>
+        <td>{{item.PRODUCT}}</td>
+        <td>{{item.STORAGE}}</td>
         <td>{{item.UOM}}</td>
         <td>{{item.UOM_ID}}</td>
         <td>{{item.SCALAR_FACTOR}}</td>
@@ -48,6 +48,7 @@
         <td>{{item.TERMINATED}}</td>
         <td>{{item.DECIMALS}}</td>
     </tr>
+    </tbody>
       </table>
     </div>
         </div>

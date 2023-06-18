@@ -9,6 +9,7 @@ import { DataEditComponent } from './components/data-edit/data-edit.component';
 import { DataDetailComponent } from './components/data-detail/data-detail.component';
 import { DataCreateComponent } from './components/data-create/data-create.component';
 import { TableComponent } from './components/table/table.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { TableComponent } from './components/table/table.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

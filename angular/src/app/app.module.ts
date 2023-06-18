@@ -9,6 +9,7 @@ import { DataEditComponent } from './components/data-edit/data-edit.component';
 import { DataDetailComponent } from './components/data-detail/data-detail.component';
 import { DataCreateComponent } from './components/data-create/data-create.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TableComponent } from './components/table/table.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     DataListComponent,
     DataEditComponent,
     DataDetailComponent,
-    DataCreateComponent
+    DataCreateComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,

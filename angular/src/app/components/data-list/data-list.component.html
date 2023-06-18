@@ -1,4 +1,4 @@
-<main>
+
 <button [routerLink]="['/create']">Create new data entry</button>
 
     <div class="data-container">
@@ -30,7 +30,6 @@
     </tr>
     
     <tr *ngFor="let item of data">
-        <td><button [routerLink]="['/detail', item.ID]">View</button></td>
         <td>{{item.ID}}</td>
         <td>{{item.REF_DATE}}</td>
         <td>{{item.GEO}}</td>
@@ -58,4 +57,3 @@
     <p>CSV file is BIG, Loading data...</p>
 </ng-template>
 </div>
-</main>

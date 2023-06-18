@@ -7,7 +7,7 @@ import { CSVData } from '../models/CSVData.model';
   providedIn: 'root'
 })
 export class DataService {
-  private url = 'http://localhost:3000/data';
+  private url = 'http://localhost:3000/api/data';
 
   constructor(private http: HttpClient) { }
 

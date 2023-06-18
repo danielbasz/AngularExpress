@@ -1,9 +1,10 @@
 export interface CSVData {
+    ID: number;
     REF_DATE: string;
     GEO: string;
     DGUID: string;
-    'Type of product': string;
-    'Type of storage': string;
+    TOP: string;
+    TOS: string;
     UOM: string;
     UOM_ID: string;
     SCALAR_FACTOR: string;

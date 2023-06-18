@@ -4,14 +4,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DisplayComponent } from './display/display.component';
-import { DataListComponent } from './data-list/data-list.component';
+import { DataListComponent } from './components/data-list/data-list.component';
+import { DataEditComponent } from './components/data-edit/data-edit.component';
+import { DataDetailComponent } from './components/data-detail/data-detail.component';
+import { DataCreateComponent } from './components/data-create/data-create.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DisplayComponent,
-    DataListComponent
+    DataListComponent,
+    DataEditComponent,
+    DataDetailComponent,
+    DataCreateComponent
   ],
   imports: [
     BrowserModule,

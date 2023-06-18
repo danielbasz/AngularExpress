@@ -8,6 +8,7 @@ import { DataListComponent } from './components/data-list/data-list.component';
 import { DataEditComponent } from './components/data-edit/data-edit.component';
 import { DataDetailComponent } from './components/data-detail/data-detail.component';
 import { DataCreateComponent } from './components/data-create/data-create.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DataCreateComponent } from './components/data-create/data-create.compon
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

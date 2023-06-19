@@ -3,8 +3,16 @@ import express, { Request, Response } from 'express';
 import dataModule, { getData, setData, saveData, saveNewData } from '../modules/data.module';
 import { CSVData } from '../models/CSVData.models';
 import { v4 as uuidv4 } from 'uuid';
+import DataService from '../services/data.service';
+
+/**
+ * DATA_FILE_PATH is a constant that contains the path to our CSV file
+ */
+const DATA_FILE_PATH = '../dataset/32100260.csv';
 
 const router = express.Router();
+const dataService = new DataService(DATA_FILE_PATH);
+
 
 // get all data endpoint
 router.get('/data', (request: Request, response: Response) => {
@@ -13,7 +21,7 @@ router.get('/data', (request: Request, response: Response) => {
    });
 
 /**
- * Add new row of data endpoint
+ * Add new row of data endpoint, by Daniel Barboza
  */
 router.post('/data', (request: Request, response: Response) => {
     console.log(request.body);
@@ -31,19 +39,19 @@ router.post('/data', (request: Request, response: Response) => {
       response.status(200).json({ message: 'Data saved to memory successfully' });
     } else {
       response.status(500).json({ error: 'Failed to save data to memory' });
-      
     }
-    });
+});
 
+//by Daniel Barboza
 // Reload original data endpoint
 router.get('/data/reloadData', (request: Request, response: Response) => {
   // Reload the original data from the file
   try {
-  dataModule.loadData()
+    dataModule.loadData()
   
-  const data = dataModule.getData();
+    const data = dataModule.getData();
 
-      response.status(200).json(data);
+    response.status(200).json(data);
     
   } catch (error: any) {
     console.error('Error reloading data:', error);
@@ -68,17 +76,16 @@ router.post('/data/save', (request: Request, response: Response) => {
 });
 
   // Save data as a new file endpoint
-router.post('/data/saveAs', (request: Request, response: Response) => {
-  const data = getData();
-  saveNewData(data)
-    .then(() => {
-      response.status(200).json({ message: 'Data saved as a new file successfully' });
-    })
-    .catch((error: any) => {
+  router.post('/data/saveAsNewFile', async (req: Request, res: Response) => {
+    const data = req.body;
+    try {
+      await dataService.saveAsNewFile(data);
+      res.sendStatus(200);
+    } catch (error) {
       console.error('Error saving data as a new file:', error);
-      response.status(500).json({ error: 'Failed to save data as a new file' });
-    });
-});
+      res.status(500).json({ error: 'Failed to save data as a new file' });
+    }
+  });
 
 
 /**
@@ -104,8 +111,6 @@ router.get('/data/:id', (request: Request, response: Response) => {
     response.status(404).json({ message: 'Data not found' });
   }
 });
-
-
 
 
 /**
@@ -135,6 +140,7 @@ router.put('/data/:id', (request: Request, response: Response) => {
     response.status(404).json({ message: 'Data not found' });
   }
 });
+
 
 /**
  * Delete data endpoint

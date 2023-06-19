@@ -43,6 +43,7 @@ loadData(): void {
     });
 }
 
+//by daniel barboza
 getData(): CSVData[] {
   return this.data;
 }

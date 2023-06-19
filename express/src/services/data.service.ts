@@ -13,6 +13,9 @@ import * as fastcsv from 'fast-csv';
 import { request } from 'http';
 import { v4 as uuidv4 } from 'uuid';
 
+/**
+ * DataService is a class that contains the methods to read and write data from a CSV file
+ */
 class DataService {
     private filePath: string;
     private data: CSVData[] = [];
@@ -51,7 +54,13 @@ class DataService {
         });
       }
 
-
+    /**
+     * Writes the CSV data to the file. This function is called when the user clicks the Save to file button.
+     * It overwrites the original file with whatever is in memory
+     * @param data The CSV data to write.
+     * @returns A promise that resolves when the data is written successfully.
+     * by Daniel Barboza
+     */
       writeCsvData(data: CSVData[]): Promise<void> {
         return new Promise((resolve, reject) => {  
             const ws = file.createWriteStream(this.filePath);
@@ -64,6 +73,11 @@ class DataService {
         });
     }
 
+    /**
+     * Saves the CSV data as a new file. Saving successfully, but having minor bugs as in console warnings.
+     * @param data The CSV data to save as a new file.
+     * @returns A promise that resolves when the data is saved as a new file.
+     */
     saveAsNewFile(data: CSVData[]): Promise<void> {
       const filePathWithSuffix = this.getFilePathWithSuffix();
       
@@ -76,6 +90,10 @@ class DataService {
       });
     }
 
+    /**
+     * Generates a new file path with a suffix to avoid overwriting existing files. Still in implementation.
+     * @returns The new file path with a suffix.
+     */
     private getFilePathWithSuffix(): string {
         const originalFileName = this.filePath.slice(this.filePath.lastIndexOf('/') + 1);
         const fileExtension = originalFileName.slice(originalFileName.lastIndexOf('.'));
@@ -86,7 +104,7 @@ class DataService {
 
         while (file.existsSync(filePathWithSuffix)) {
             suffix++;
-            const newFileName = `${filePathWithoutExtension}_${suffix}$fileExtension`;
+            const newFileName = `${filePathWithoutExtension}_${suffix}${fileExtension}`;
             filePathWithSuffix = this.filePath.replace(originalFileName, newFileName);
         }
         

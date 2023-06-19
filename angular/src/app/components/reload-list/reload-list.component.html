@@ -1,10 +1,9 @@
 
 <button [routerLink]="['/create']">Create new data entry</button>
-<button [routerLink]="['/']" (click)="reloadOriginalData()">Reload Original</button>
-<button [routerLink]="['/']" (click)="saveData()">Persist to file</button>
-<button [routerLink]="['/']" (click)="saveDataAsNewFile()">Create new file with data</button>
-<input type="file" (change)="onFileSelected($event)">
-
+<button [routerLink]="['/reloadData']">Reload Original</button>
+<button [routerLink]="['/save']">Persist to file</button>
+<button [routerLink]="['/saveAs']">Create new file with data</button>
+<button [routerLink]="['/']">Create new data entry</button>
 <br>
     <div class="data-container">
     

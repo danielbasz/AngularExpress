@@ -51,16 +51,30 @@ class DataService {
         });
       }
 
-    writeCsvData(data: CSVData[]): Promise<void> {
-        const filePathWithSuffix = this.getFilePathWithSuffix();
-        return new Promise((resolve, reject) => {
-          const ws = file.createWriteStream(filePathWithSuffix);
-          fastcsv.write(data, { headers: true })
-            .pipe(ws)
-            .on('finish', resolve)
-            .on('error', reject);
+
+      writeCsvData(data: CSVData[]): Promise<void> {
+        return new Promise((resolve, reject) => {  
+            const ws = file.createWriteStream(this.filePath);
+            fastcsv.write(data, { headers: true }).pipe(ws).on('finish', () => {
+                resolve();
+            }).on('error', (error) => {
+                reject(error);
+                }
+            );
         });
-      }
+    }
+
+    saveAsNewFile(data: CSVData[]): Promise<void> {
+      const filePathWithSuffix = this.getFilePathWithSuffix();
+      
+      return new Promise((resolve, reject) => {
+        const ws = file.createWriteStream(filePathWithSuffix);
+        fastcsv.write(data, { headers: true })
+          .pipe(ws)
+          .on('finish', resolve)
+          .on('error', reject);
+      });
+    }
 
     private getFilePathWithSuffix(): string {
         const originalFileName = this.filePath.slice(this.filePath.lastIndexOf('/') + 1);

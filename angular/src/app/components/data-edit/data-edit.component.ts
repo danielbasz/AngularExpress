@@ -74,7 +74,7 @@ export class DataEditComponent implements OnInit {
     this.theDataService.updateData(dataToBeUpdated).subscribe(
       response => {
         console.log('Data updated successfully', response);
-        this.router.navigate(['/list']); // Redirect to the data list page after update
+        this.router.navigate(['']); // Redirect to the data list page after update
       },
       error => {
         console.error('There was an error!', error);

@@ -29,7 +29,7 @@ class DataModule {
 // we can limit the reads to 100 rows.
 // Load the data when the module is initialized
 
-private loadData(): void {
+loadData(): void {
   this.dataService.loadData()
     .then((loadedData: CSVData[]) => {
       // Generate unique IDs for each data object
@@ -52,11 +52,16 @@ setData(data: CSVData[]): boolean {
   return true;
 }
 
-saveToFile(): Promise<void> {
+saveData(data: CSVData[]): Promise<void> {
   return this.dataService.writeCsvData(this.data);
 }
 
+saveToNewFile(): Promise<void> {
+  return this.dataService.saveAsNewFile(this.data);
+
+  }
 }
+
 
 const dataModule = new DataModule();
 
@@ -68,9 +73,14 @@ export function setData(data: CSVData[]): boolean {
 return dataModule.setData(data);
 }
 
-export function saveData(): Promise<void> {
-return dataModule.saveToFile();
+export function saveData(data: CSVData[]): Promise<void> {
+return dataModule.saveData(data);
 }
 
+export function saveNewData(data: CSVData[]): Promise<void> {
+return dataModule.saveToNewFile();
+}
+
+export default dataModule;
 
 

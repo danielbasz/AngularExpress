@@ -54,7 +54,7 @@ reloadOriginalData(): void {
   // Save data as a new file
 saveDataAsNewFile(): void {
   this.theDataService.saveAsNewFile(this.data).subscribe(
-    (response: CSVData[]) => {
+    () => {
       // Handle the successful save operation
     },
     (error: any) => {
@@ -78,9 +78,9 @@ onFileSelected(event: Event): void {
       // Call the saveAs function in your data service
       this.theDataService.saveAsNewFile(parsedCSV)
         .subscribe(
-          (data: CSVData[]) => {
+          () => {
             // Handle the successful save operation
-            this.data = data;
+            
           },
           (error: any) => {
             // Handle the error if needed

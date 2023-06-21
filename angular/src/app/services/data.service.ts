@@ -79,8 +79,8 @@ export class DataService {
   }
   
 
-  saveAsNewFile(data: CSVData[]): Observable<any> {
-    return this.http.post<any>(`${this.url}/saveAsNewFile`, data).pipe(
+  saveAsNewFile(data: CSVData[]): Observable<void> {
+    return this.http.post<void>(`${this.url}/saveAsNewFile`, data).pipe(
       catchError((error) => {
         console.error('Error saving data:', error);
         throw new Error('Failed to save data');
@@ -105,9 +105,14 @@ export class DataService {
     return this.http.put<CSVData>(`${this.url}/${data.ID}`, data);
   }
 
-  //delete data
-  deleteData(id: string): Observable<CSVData> {
-    return this.http.delete<CSVData>(`${this.url}/${id}`);
+  deleteData(id: string): Observable<void> {
+    return this.http.delete<void>(`${this.url}/data/${id}`).pipe(
+      catchError((error: any) => {
+        console.error('Error deleting data:', error);
+        throw new Error('Failed to delete data');
+      })
+    );
   }
+  
 
 }

@@ -7,7 +7,6 @@
 import express, { Request, response, Response } from "express";
 import { request } from "http";
 import { CSVData } from "./models/CSVData.models";
-import DataService from "../src/services/data.service";
 import cors from 'cors';
 import { log } from "console";
 import dataRoutes from './routes/data.routes';

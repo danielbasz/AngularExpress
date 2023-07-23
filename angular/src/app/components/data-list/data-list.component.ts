@@ -17,8 +17,9 @@ export class DataListComponent implements OnInit {
   constructor(private theDataService: DataService, private router: Router) { }
 
   ngOnInit(): void {
-    this.theDataService.getData().subscribe((data: CSVData[]) => {
+    this.theDataService.getAllData().subscribe((data: CSVData[]) => {
       this.data = data;
+      
     });
   }
 
@@ -26,70 +27,9 @@ export class DataListComponent implements OnInit {
     this.router.navigate([`detail/${id}`]);
   }
 
- // Save data
-saveData(): void {
-  this.theDataService.saveData(this.data).subscribe(
-    (response: CSVData[]) => {
-      // Handle the successful save operation
-    },
-    (error: any) => {
-      // Handle the error
-    }
-  );
+
 }
 
 
- // Reload original data
-reloadOriginalData(): void {
-  this.theDataService.reloadData().subscribe(
-    (data: CSVData[]) => {
-      // Process the retrieved data
-    },
-    (error: any) => {
-      // Handle the error
-    }
-  );
-}
 
-  // Save data as a new file
-saveDataAsNewFile(): void {
-  this.theDataService.saveAsNewFile(this.data).subscribe(
-    () => {
-      // Handle the successful save operation
-    },
-    (error: any) => {
-      // Handle the error
-    }
-  );
-}
 
-// Load new CSV data file
-onFileSelected(event: Event): void {
-  const fileInput = event.target as HTMLInputElement;
-  const file = fileInput.files?.[0];
-
-  if (file) {
-    const reader = new FileReader();
-
-    reader.onload = (e: ProgressEvent<FileReader>) => {
-      const fileData = e.target?.result as string;
-      const parsedCSV = this.theDataService.parseCSVData(fileData);
-
-      // Call the saveAs function in your data service
-      this.theDataService.saveAsNewFile(parsedCSV)
-        .subscribe(
-          () => {
-            // Handle the successful save operation
-            
-          },
-          (error: any) => {
-            // Handle the error if needed
-            console.error('Error loading new CSV data:', error);
-          }
-        );
-    };
-
-    reader.readAsText(file);
-  }
-}
-}

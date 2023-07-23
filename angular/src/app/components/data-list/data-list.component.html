@@ -1,9 +1,6 @@
 
 <button [routerLink]="['/create']">Create new data entry</button>
-<button [routerLink]="['/']" (click)="reloadOriginalData()">Reload Original</button>
-<button [routerLink]="['/']" (click)="saveData()">Persist to file</button>
-<button [routerLink]="['/']" (click)="saveDataAsNewFile()">Create new file with data</button>
-<input type="file" (change)="onFileSelected($event)">
+
 
 <br>
     <div class="data-container">
@@ -15,44 +12,28 @@
 
         <table class="table">
         <thead>
-        <th>ID</th>
+        
         <th>REF_DATE</th>
         <th>GEO</th>
-        <th>DGUID</th>
         <th>PRODUCT</th>
         <th>STORAGE</th>
         <th>UOM</th>
-        <th>UOM_ID</th>
-        <th>SCALAR_FACTOR</th>
-        <th>SCALAR_ID</th>
         <th>VECTOR</th>
         <th>COORDINATE</th>
         <th>VALUE</th>
-        <th>STATUS</th>
-        <th>SYMBOL</th>
-        <th>TERMINATED</th>
-        <th>DECIMALS</th>
         </thead>
         <!-- by daniel barboza-->
     <tbody>
     <tr *ngFor="let item of data" [ngClass]="{'table-row': true}" (click)="detailData(item.ID)">
-        <td>{{item.ID}}</td>
+        
         <td>{{item.REF_DATE}}</td>
         <td>{{item.GEO}}</td>
-        <td>{{item.DGUID}}</td>
         <td>{{item.PRODUCT}}</td>
         <td>{{item.STORAGE}}</td>
         <td>{{item.UOM}}</td>
-        <td>{{item.UOM_ID}}</td>
-        <td>{{item.SCALAR_FACTOR}}</td>
-        <td>{{item.SCALAR_ID}}</td>
         <td>{{item.VECTOR}}</td>
         <td>{{item.COORDINATE}}</td>
         <td>{{item.VALUE}}</td>
-        <td>{{item.STATUS}}</td>
-        <td>{{item.SYMBOL}}</td>
-        <td>{{item.TERMINATED}}</td>
-        <td>{{item.DECIMALS}}</td>
     </tr>
     </tbody>
       </table>

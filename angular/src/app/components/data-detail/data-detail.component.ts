@@ -31,7 +31,7 @@ this.theDataService.deleteData(id).subscribe(() => {
   
 
   ngOnInit(): void {
-    this.dataId = this.route.snapshot.paramMap.get('id')!;
+    this.dataId = this.route.snapshot.paramMap.get('_id')!;
     this.theDataService.getDataById(this.dataId).subscribe((data: CSVData) => {
       this.data = data;
     });

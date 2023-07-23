@@ -14,9 +14,9 @@ export class ReloadListComponent implements OnInit {
   constructor(private theDataService: DataService, private router: Router) { }
 
   ngOnInit(): void {
-    this.theDataService.reloadData().subscribe((data: CSVData[]) => {
-      this.data = data;
-    });
+   // this.theDataService.reloadData().subscribe((data: CSVData[]) => {
+     // this.data = data;
+   // });
   }
 
   detailData(id: string) {

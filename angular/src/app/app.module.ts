@@ -11,6 +11,7 @@ import { DataCreateComponent } from './components/data-create/data-create.compon
 import { TableComponent } from './components/table/table.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     DataEditComponent,
     DataDetailComponent,
     DataCreateComponent,
-    TableComponent
+    TableComponent,
   ],
   imports: [
     BrowserModule,

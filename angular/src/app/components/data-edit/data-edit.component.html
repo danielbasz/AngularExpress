@@ -1,8 +1,7 @@
+<div class="data-container">
+
 <form [formGroup]="dataForm" (ngSubmit)="onSubmit()">
-    <label>
-      ID:
-      <input type="text" formControlName="ID">
-    </label>
+    
     <label>
       REF_DATE:
       <input type="text" formControlName="REF_DATE">
@@ -11,10 +10,7 @@
       GEO:
       <input type="text" formControlName="GEO">
     </label>
-    <label>
-      DGUID:
-      <input type="text" formControlName="DGUID">
-    </label>
+    
     <label>
       PRODUCT:
       <input type="text" formControlName="PRODUCT">
@@ -27,18 +23,7 @@
       UOM:
       <input type="text" formControlName="UOM">
     </label>
-    <label>
-      UOM_ID:
-      <input type="text" formControlName="UOM_ID">
-    </label>
-    <label>
-      SCALAR_FACTOR:
-      <input type="text" formControlName="SCALAR_FACTOR">
-    </label>
-    <label>
-      SCALAR_ID:
-      <input type="text" formControlName="SCALAR_ID">
-    </label>
+    
     <label>
       VECTOR:
       <input type="text" formControlName="VECTOR">
@@ -51,22 +36,7 @@
       VALUE:
       <input type="text" formControlName="VALUE">
     </label>
-    <label>
-      STATUS:
-      <input type="text" formControlName="STATUS">
-    </label>
-    <label>
-      SYMBOL:
-      <input type="text" formControlName="SYMBOL">
-    </label>
-    <label>
-      TERMINATED:
-      <input type="text" formControlName="TERMINATED">
-    </label>
-    <label>
-      DECIMALS:
-      <input type="text" formControlName="DECIMALS">
-    </label>
+    
     <button type="submit">Submit</button>
   </form>
-  
+</div>   

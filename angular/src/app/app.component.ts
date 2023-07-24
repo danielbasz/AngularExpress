@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
 
 
   fetch() {
-    this.theDataService.getData().subscribe(
+    this.theDataService.getAllData().subscribe(
       data => this.data = data,
       error => console.error(error)  
     );

@@ -2,6 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { CSVData } from 'src/app/models/CSVData.model';
 import { DataService } from 'src/app/services/data.service';
 import { Router } from '@angular/router';
+import { response } from 'express';
+import * as csvParser from 'csv-parser';
+import { parse } from 'path';
 
 @Component({
   selector: 'app-data-list',
@@ -14,12 +17,19 @@ export class DataListComponent implements OnInit {
   constructor(private theDataService: DataService, private router: Router) { }
 
   ngOnInit(): void {
-    this.theDataService.getData().subscribe((data: CSVData[]) => {
+    this.theDataService.getAllData().subscribe((data: CSVData[]) => {
       this.data = data;
+      
     });
   }
 
   detailData(id: string) {
     this.router.navigate([`detail/${id}`]);
   }
+
+
 }
+
+
+
+

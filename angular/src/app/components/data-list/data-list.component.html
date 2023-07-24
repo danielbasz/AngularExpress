@@ -24,7 +24,7 @@
         </thead>
         <!-- by daniel barboza-->
     <tbody>
-    <tr *ngFor="let item of data" [ngClass]="{'table-row': true}" (click)="detailData(item.ID)">
+    <tr *ngFor="let item of data" [ngClass]="{'table-row': true}" (click)="detailData(item._id)">
         
         <td>{{item.REF_DATE}}</td>
         <td>{{item.GEO}}</td>

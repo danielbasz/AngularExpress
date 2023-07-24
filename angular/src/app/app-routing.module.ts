@@ -4,7 +4,7 @@ import { DataListComponent } from './components/data-list/data-list.component';
 import { DataCreateComponent } from './components/data-create/data-create.component';
 import { DataEditComponent } from './components/data-edit/data-edit.component';
 import { DataDetailComponent } from './components/data-detail/data-detail.component';
-import { ReloadListComponent } from './components/reload-list/reload-list.component';
+
 
 const routes: Routes = [
   { path: '', component: DataListComponent },

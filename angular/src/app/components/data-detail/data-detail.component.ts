@@ -12,12 +12,19 @@ import { Router } from '@angular/router';
 })
 export class DataDetailComponent implements OnInit{
 
+
+  data!: CSVData;
+  dataId!: string;
+
   constructor(private route: ActivatedRoute, private theDataService: DataService, private router: Router) { }
   
+
+
 deleteData(id: string) {
 this.theDataService.deleteData(id).subscribe(() => {
   // Handle the successful delete operation
-  this.router.navigate(['/']);
+  console.log('Data deleted');
+  this.router.navigate(['']);
 }, (error: any) => {
   // Handle the error
   console.error(error);
@@ -25,13 +32,11 @@ this.theDataService.deleteData(id).subscribe(() => {
 );
 }
 
-  data!: CSVData;
-  dataId!: string;
-
+ 
   
 
   ngOnInit(): void {
-    this.dataId = this.route.snapshot.paramMap.get('_id')!;
+    this.dataId = this.route.snapshot.paramMap.get('id')!;
     this.theDataService.getDataById(this.dataId).subscribe((data: CSVData) => {
       this.data = data;
     });

@@ -20,7 +20,7 @@ export class DataEditComponent implements OnInit {
   ) {
     this.dataForm = new FormGroup({
       
-      REF_DATE: new FormControl(''),
+      REF_DATE: new FormControl(),
       GEO: new FormControl(''),
       
       PRODUCT: new FormControl(''),

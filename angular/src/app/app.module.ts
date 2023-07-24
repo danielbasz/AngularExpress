@@ -10,7 +10,7 @@ import { DataDetailComponent } from './components/data-detail/data-detail.compon
 import { DataCreateComponent } from './components/data-create/data-create.component';
 import { TableComponent } from './components/table/table.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { ReloadListComponent } from './components/reload-list/reload-list.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +20,6 @@ import { ReloadListComponent } from './components/reload-list/reload-list.compon
     DataDetailComponent,
     DataCreateComponent,
     TableComponent,
-    ReloadListComponent
   ],
   imports: [
     BrowserModule,

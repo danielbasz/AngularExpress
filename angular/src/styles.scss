@@ -28,6 +28,16 @@ table {
     }
   }
 
+  .ngx-charts .legend-labels text {
+    width: 400px; /* or whatever width you want */
+    white-space: nowrap;
+  }
+  
+  /* You may also want to adjust the font size */
+  .ngx-charts .legend-labels text {
+    font-size: 16px;
+  }
+
   .table-row:hover {
     background-color: #f7ffd6;
     cursor: pointer;

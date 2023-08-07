@@ -10,6 +10,8 @@ import { DataDetailComponent } from './components/data-detail/data-detail.compon
 import { DataCreateComponent } from './components/data-create/data-create.component';
 import { TableComponent } from './components/table/table.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+
 
 
 @NgModule({
@@ -25,7 +27,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
